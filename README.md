@@ -4,19 +4,13 @@ It helps insurance companies to estimate insurance premiums based on model featu
 ### Objective:
 This model is developed to predict annual medical expenses of a person based on certain charcterstics so that the insurance companies can charge premium accordingly
 ### Data information:
-age - Age of the person (numeric)
-
-Gender - Gender of the person (binary: male or female)
-
-bmi - The body mass index (BMI) of the person (numeric)
-
-children - Number of children the person have (integer
-
-smoker - Does the person smoke or not (binary: yes or no)
-
-region - Region the person belongs to (categorical)
-
-expenses - Annual medical expenses of the person (numeric)
+* age - Age of the person (numeric)
+* Gender - Gender of the person (binary: male or female)
+* bmi - The body mass index (BMI) of the person (numeric)
+* children - Number of children the person have (integer
+* smoker - Does the person smoke or not (binary: yes or no)
+* region - Region the person belongs to (categorical)
+* expenses - Annual medical expenses of the person (numeric)
 ### Table of Contents:
 * Import & Read data
 * Data review & check
@@ -40,8 +34,6 @@ This project is created with:
 * This model needs to further investigate to remove overfitting
 ### Future Work
 * To remove the overfitting, we will perform K fold cross validation and develop the model again
-
-
 ### Exploratory data Analysis
 ![image](https://user-images.githubusercontent.com/101332838/184523809-6ce5ee1e-5076-4b84-8596-311bdcd3a12d.png)
 ![image](https://user-images.githubusercontent.com/101332838/184523812-6576a96b-4714-4f9a-9f0d-e83038768529.png)
